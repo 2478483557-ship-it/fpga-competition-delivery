@@ -1,0 +1,9 @@
+{
+  "_说明": "交付目录必需文件。min_mb/max_mb 用于发现被截断或误打包的文件。",
+  "required": [
+    { "name": "技术文档_WaveCore.pdf", "min_mb": 0.5, "max_mb": 50 },
+    { "name": "WaveCore_源代码.rar",   "min_mb": 1.0, "max_mb": 200 },
+    { "name": "202610261226.mp4",     "min_mb": 10,  "max_mb": 800 }
+  ],
+  "allow_dirs": ["_过程文档"]
+}
